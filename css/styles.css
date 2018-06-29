@@ -71,7 +71,7 @@ nav h1 a {
     background-color: #eee;
     font-size: 17px;
     margin: 0;
-    width: calc(50% - 80px);
+    width: 100%;
 }
 
 /* Display list items side by side */
@@ -195,11 +195,11 @@ nav h1 a {
   z-index: 1000;
 }
 .inside #map-container {
-  background: blue none repeat scroll 0 0;
-  height: 87%;
+  background: #f3f3f3 none repeat scroll 0 0;
+  height: 76%;
   position: fixed;
   right: 0;
-  top: 80px;
+  top: 16%;
   width: 50%;
 }
 .inside #map {
@@ -210,7 +210,7 @@ nav h1 a {
 .inside #footer {
   bottom: 0;
   position: absolute;
-  width: 50%;
+  width: 100%;
 }
 #restaurant-name {
   color: #f18200;
