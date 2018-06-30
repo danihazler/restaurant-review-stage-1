@@ -7,6 +7,9 @@
   }
 }
 @media only screen and (max-width: 1050px) {
+  .filter-options {
+    margin-top: 400px;
+  }
   #restaurants-list li {
     width: 38%;
   }
@@ -17,7 +20,7 @@
   .inside header {
     position: relative;
   }
-  .inside #map-container{
+  #map-container, .inside #map-container {
     background-color: transparent;
     height: 500px;
     width: 100%;
