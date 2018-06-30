@@ -58,7 +58,7 @@
   }
   #restaurants-list li {
     width: 65%;
-    min-height: 480px;
+    min-height: 500px;
   }
   #maincontent {
     flex-direction: column;
@@ -73,5 +73,36 @@
   }
   td,tr {
     font-size: 11pt;
+  }
+}
+@media only screen and (max-width: 790px) {
+  #restaurants-list li {
+    min-height: 445px;
+  }
+  #restaurants-list li h1 {
+    font-size: 13pt;
+  }
+}
+@media only screen and (max-width: 665px) {
+  #restaurants-list li {
+    min-height: 385px;
+  }
+}
+@media only screen and (max-width: 545px) {
+  .filter-options {
+    padding: 2%;
+  }
+  .filter-options select {
+    width: 160px;
+  }
+  #restaurants-list {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #restaurants-list li {
+    min-height: 370px;
+  }
+  #restaurants-list p {
+    font-size: 10pt;
   }
 }
