@@ -148,6 +148,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   min-height: 380px;
   padding: 0 30px 25px;
   text-align: left;
+	position: relative;
   width: 25%;
 }
 #restaurants-list .restaurant-img {
@@ -183,6 +184,8 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+	position: absolute;
+	bottom: 2%;
 }
 
 /* ====================== Restaurant Details ====================== */
