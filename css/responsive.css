@@ -71,9 +71,6 @@
   #restaurant-cuisine {
     font-size: 16pt;
   }
-  td,tr {
-    font-size: 11pt;
-  }
 }
 @media only screen and (max-width: 790px) {
   #restaurants-list li {
@@ -104,5 +101,19 @@
   }
   #restaurants-list p {
     font-size: 10pt;
+  }
+  #restaurant-cuisine {
+    font-size: 14pt;
+  }
+  tr, td {
+    font-size: 9pt;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #restaurant-cuisine {
+    font-size: 12pt;
+  }
+  tr, td {
+    font-size: 7pt;
   }
 }
