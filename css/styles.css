@@ -49,16 +49,17 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   text-transform: uppercase;
 }
 /* ====================== Navigation ====================== */
-nav {
+.brand {
   width: 100%;
-  height: 80px;
+  height: auto;
+	padding: 2%;
   background-color: #252831;
   text-align:center;
 }
-nav h1 {
+.brand h1 {
   margin: auto;
 }
-nav h1 a {
+.brand a {
   color: #fff;
   font-size: 14pt;
   font-weight: 200;
