@@ -68,4 +68,10 @@
     padding-top: 40px;
     width: 75%;
   }
+  #restaurant-cuisine {
+    font-size: 16pt;
+  }
+  td,tr {
+    font-size: 11pt;
+  }
 }
