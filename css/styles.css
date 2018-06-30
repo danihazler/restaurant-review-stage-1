@@ -155,7 +155,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   display: block;
   margin: 0;
   max-width: 100%;
-  min-height: 248px;
+  min-height: auto;
   min-width: 100%;
 }
 #restaurants-list li h1 {
@@ -208,7 +208,8 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 .inside #footer {
   bottom: 0;
   position: absolute;
-  width: 96.5%; /* To avoid side scrolling */
+  width: 100%;
+	overflow: hidden;
 }
 #restaurant-name {
   color: #f18200;
