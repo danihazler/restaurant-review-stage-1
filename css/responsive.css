@@ -20,6 +20,9 @@
   .inside header {
     position: relative;
   }
+  #breadcrumb {
+    width: initial;
+  }
   #map-container, .inside #map-container {
     background-color: transparent;
     height: 500px;
@@ -40,5 +43,9 @@
   #restaurant-img,
   #restaurant-cuisine {
     width: 100%;
+  }
+  .inside #footer {
+    position: relative;
+    width: initial;
   }
 }
