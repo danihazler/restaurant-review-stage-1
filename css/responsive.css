@@ -2,5 +2,7 @@
   #restaurants-list li {
     width: 23%;
   }
-
+  #restaurant-container, #reviews-container {
+    width: 48%;
+  }
 }
