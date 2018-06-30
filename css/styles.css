@@ -194,10 +194,10 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 .inside #map-container {
   background: #f3f3f3 none repeat scroll 0 0;
-  height: 76%;
+  height: 74%;
   position: fixed;
   right: 0;
-  top: 16%;
+  top: 18%;
   width: 50%;
 }
 .inside #map {
