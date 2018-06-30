@@ -11,6 +11,7 @@
     width: 38%;
   }
   #maincontent {
+    display: flex;
     position: relative;
   }
   .inside header {
@@ -23,5 +24,18 @@
     position: absolute;
     top: 0;
   }
-
+  #restaurant-container,
+  #reviews-container {
+    padding-top: 440px;
+  }
+  #restaurant-container {
+    padding-right: 20px;
+  }
+  #reviews-container {
+    padding-left: 20px;
+  }
+  #restaurant-img,
+  #restaurant-cuisine {
+    width: 100%;
+  }
 }
