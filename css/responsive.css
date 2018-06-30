@@ -6,3 +6,22 @@
     width: 48%;
   }
 }
+@media only screen and (max-width: 1050px) {
+  #restaurants-list li {
+    width: 38%;
+  }
+  #maincontent {
+    position: relative;
+  }
+  .inside header {
+    position: relative;
+  }
+  .inside #map-container{
+    background-color: transparent;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+}
