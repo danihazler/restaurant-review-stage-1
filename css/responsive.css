@@ -49,3 +49,12 @@
     width: initial;
   }
 }
+@media only screen and (max-width: 892px) {
+  #restaurants-list {
+    justify-content: center;
+  }
+  #restaurants-list li {
+    width: 65%;
+    min-height: 480px;
+  }
+}
