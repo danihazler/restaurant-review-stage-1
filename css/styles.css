@@ -65,6 +65,21 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   letter-spacing: 10px;
   text-transform: uppercase;
 }
+a.skip-link {
+	position: absolute;
+	top: -50px;
+	left: 0;
+	background: orange;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif; 
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding: 10px;
+	z-index: 10;
+}
+a.skip-link:focus {
+	top: 0;
+}
 #breadcrumb {
     padding: 10px 40px 16px;
     list-style: none;
