@@ -1,4 +1,4 @@
-let cacheName = 'cache_v3';
+let cacheName = 'cache_v4';
 let cacheFiles = [
   './',
   'index.html',
@@ -6,6 +6,13 @@ let cacheFiles = [
   '.css/responsive.css',
   'img/Casa_Enrique.jpg',
   'img/Emily.jpg',
+  'img/Hometown_BBQ.jpg',
+  'img/Kang_Ho_Dong_Baekjeong.jpg',
+  'img/Mission_Chinese_Food.jpg',
+  'img/Mu_Ramen.jpg',
+  'img/Robertas_Pizza.jpg',
+  'img/Superiority_Burger.jpg',
+  'img/The_Dutch.jpg',
   '.js/dbhelper.js',
   './js/restaurant_info.js',
   './data/restaurants.json',
